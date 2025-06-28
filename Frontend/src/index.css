@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.sidebar-bg-color:{
+background-color: #0a0e11;
+}
