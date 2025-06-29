@@ -12,5 +12,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: env.VITE_BASE_PATH || "/react-vite-deploy",
+  base: env.VITE_BASE_PATH || "Ecommerce-advanced",
 });
