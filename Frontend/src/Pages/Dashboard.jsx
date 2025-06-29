@@ -9,7 +9,7 @@ const Dashboard = () => {
       <div className="flex items-center w-full max-w-xl bg-[#101418] rounded-lg px-3 sm:px-4 py-2 mb-5 mt-2 shadow-sm">
         <FiSearch className="text-gray-400 text-xl mr-2" />
         <input
-          type="text" 
+          type="text"
           placeholder="Search"
           className="bg-transparent outline-none border-none text-white w-full placeholder-gray-500"
         />
@@ -19,20 +19,20 @@ const Dashboard = () => {
       <h1 className="text-2xl sm:text-3xl font-bold text-white mb-2">Dashboard</h1>
      
       {/* Cards Row */}
-      <div className="flex flex-wrap gap-4 sm:gap-6 mt-4 ">
-        <div className="w-full sm:w-40 md:w-48 h-24 bg-[#0b0f14] rounded-lg p-4 text-white flex flex-col justify-center border border-transparent hover:border-blue-500 ">
+      <div className="flex flex-wrap gap-4 sm:gap-6 mt-4">
+        <div className="w-full sm:w-40 md:w-48 h-24 bg-[#0b0f14] rounded-lg p-4 text-white flex flex-col justify-center border border-violet-600/40 hover:border-violet-800 transition-all duration-200">
           <span className="text-base sm:text-lg font-semibold">$958,120</span>
           <span className="text-xs text-gray-400 mt-1">Total Sales</span>
         </div>
-        <div className="w-full sm:w-36 md:w-40 h-24 bg-[#0b0f14] rounded-lg p-4 text-white flex flex-col justify-center border border-transparent hover:border-blue-500">
+        <div className="w-full sm:w-36 md:w-40 h-24 bg-[#0b0f14] rounded-lg p-4 text-white flex flex-col justify-center border border-violet-600/40 hover:border-violet-800 transition-all duration-200">
           <span className="text-base sm:text-lg font-semibold">8,250</span>
           <span className="text-xs text-gray-400 mt-1">Orders</span>
         </div>
-        <div className="w-full sm:w-56 md:w-64 h-24 bg-[#0b0f14] rounded-lg p-4 text-white flex flex-col justify-center border border-transparent hover:border-blue-500">
+        <div className="w-full sm:w-56 md:w-64 h-24 bg-[#0b0f14] rounded-lg p-4 text-white flex flex-col justify-center border border-violet-600/40 hover:border-violet-800 transition-all duration-200">
           <span className="text-base sm:text-lg font-semibold">1,210</span>
           <span className="text-xs text-gray-400 mt-1">Customers</span>
         </div>
-        <div className="w-full sm:w-56 md:w-64 h-24 bg-[#0b0f14] rounded-lg p-4 text-white flex flex-col justify-center border border-transparent hover:border-blue-500">
+        <div className="w-full sm:w-56 md:w-64 h-24 bg-[#0b0f14] rounded-lg p-4 text-white flex flex-col justify-center border border-violet-600/40 hover:border-violet-800 transition-all duration-200">
           <span className="text-base sm:text-lg font-semibold">35,600</span>
           <span className="text-xs text-gray-400 mt-1">Visitors</span>
         </div>
@@ -41,7 +41,7 @@ const Dashboard = () => {
       {/* Main Content: Sales Overview & Recent Orders */}
       <div className="flex flex-col lg:flex-row gap-4 sm:gap-6 mt-6">
         {/* Sales Overview Card */}
-        <div className="w-full lg:w-[55%] bg-[#0b0f14] p-4 sm:p-6 rounded-lg shadow-md text-white flex flex-col">
+        <div className="w-full lg:w-[55%] bg-[#0b0f14] p-4 sm:p-6 rounded-lg shadow-md text-white flex flex-col border border-violet-600/40 hover:border-violet-800 transition-all duration-200">
           <h2 className="text-lg sm:text-xl font-semibold mb-4">Sales Overview</h2>
           <div className="h-44 sm:h-64 rounded flex items-center justify-center text-gray-500">
             <SalesChart />
@@ -60,7 +60,7 @@ const Dashboard = () => {
         </div>
 
         {/* Recent Orders Card */}
-        <div className="w-full lg:w-[45%] bg-[#0b0f14] p-4 sm:p-6 rounded-lg shadow-md text-white flex flex-col mt-4 lg:mt-0">
+        <div className="w-full lg:w-[45%] bg-[#0b0f14] p-4 sm:p-6 rounded-lg shadow-md text-white flex flex-col mt-4 lg:mt-0 border border-violet-600/40 hover:border-violet-800 transition-all duration-200">
           <h2 className="text-lg sm:text-xl font-semibold mb-4">Recent Orders</h2>
           <div className="overflow-x-auto flex-1">
             <table className="w-full text-left gap-6">
@@ -114,25 +114,25 @@ const Dashboard = () => {
       </div>
 
       {/* UNDERNEATH: Top Products Card */}
-      <div className="mt-6 w-full bg-[#0b0f14] p-4 sm:p-6 rounded-lg shadow-md text-white max-w-6xl mx-auto">
+      <div className="mt-6 w-full bg-[#0b0f14] p-4 sm:p-6 rounded-lg shadow-md text-white max-w-6xl mx-auto border border-violet-600/40 hover:border-violet-800 transition-all duration-200">
         <h2 className="text-lg sm:text-xl font-semibold mb-4">Top Products</h2>
         <div className="flex flex-wrap gap-4 sm:gap-8">
-          <div className="w-[45%] sm:w-40 md:w-48 h-36 sm:h-56 flex flex-col items-center bg-[#11151b] p-4 rounded-lg">
+          <div className="w-[45%] sm:w-40 md:w-48 h-36 sm:h-56 flex flex-col items-center bg-[#11151b] p-4 rounded-lg border border-violet-600/20">
             <div className="w-20 h-20 sm:w-24 sm:h-24 bg-[#181d24] rounded-lg mb-3"></div>
             <div className="mt-4 text-xs sm:text-sm font-medium">Smartphone</div>
             <div className="text-xs text-gray-400">$799</div>
           </div>
-          <div className="w-[45%] sm:w-40 md:w-48 h-36 sm:h-56 flex flex-col items-center bg-[#11151b] p-4 rounded-lg">
+          <div className="w-[45%] sm:w-40 md:w-48 h-36 sm:h-56 flex flex-col items-center bg-[#11151b] p-4 rounded-lg border border-violet-600/20">
             <div className="w-20 h-20 sm:w-24 sm:h-24 bg-[#181d24] rounded-lg mb-3"></div>
             <div className="mt-4 text-xs sm:text-sm font-medium">Wireless Headphones</div>
             <div className="text-xs text-gray-400">$169</div>
           </div>
-          <div className="w-[45%] sm:w-40 md:w-48 h-36 sm:h-56 flex flex-col items-center bg-[#11151b] p-4 rounded-lg">
+          <div className="w-[45%] sm:w-40 md:w-48 h-36 sm:h-56 flex flex-col items-center bg-[#11151b] p-4 rounded-lg border border-violet-600/20">
             <div className="w-20 h-20 sm:w-24 sm:h-24 bg-[#181d24] rounded-lg mb-3"></div>
             <div className="mt-4 text-xs sm:text-sm font-medium">Smartwatch</div>
             <div className="text-xs text-gray-400">$199</div>
           </div>
-          <div className="w-[45%] sm:w-40 md:w-48 h-36 sm:h-56 flex flex-col items-center bg-[#11151b] p-4 rounded-lg">
+          <div className="w-[45%] sm:w-40 md:w-48 h-36 sm:h-56 flex flex-col items-center bg-[#11151b] p-4 rounded-lg border border-violet-600/20">
             <div className="w-20 h-20 sm:w-24 sm:h-24 bg-[#181d24] rounded-lg mb-3"></div>
             <div className="mt-4 text-xs sm:text-sm font-medium">Laptop</div>
             <div className="text-xs text-gray-400">$1,239</div>
@@ -144,4 +144,3 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
-
