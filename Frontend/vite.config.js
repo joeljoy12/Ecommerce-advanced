@@ -17,5 +17,5 @@ export default defineConfig({
       ],
     },
   },
-  base: process.env.VITE_BASE_PATH || "/Ecommerce-advanced", // Adjusted to use process.env
+  base:  "/Ecommerce-advanced", // Adjusted to use process.env
 });
