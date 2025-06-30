@@ -10,6 +10,9 @@ export default defineConfig({
   plugins: [
     react(),
   ],
+
+  root: './src',
+  entry: 'main.jsx',
   css: {
     postcss: {
       plugins: [
@@ -17,5 +20,5 @@ export default defineConfig({
       ],
     },
   },
-  base:  "/Ecommerce-advanced", // Adjusted to use process.env
+  base:"/Ecommerce-advanced", // Adjusted to use process.env
 });
