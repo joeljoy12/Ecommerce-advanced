@@ -6,5 +6,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;900&display=swap');
 
 .font-inter {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter',
 }
+
+.libertinus-mono-regular {
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
