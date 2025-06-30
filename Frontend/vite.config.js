@@ -19,5 +19,5 @@ export default defineConfig({
       ],
     },
   },
-  base: import.meta.env.VITE_BASE_PATH || "/Ecommerce-advanced",
+  base: "/Ecommerce-advanced",
 });
