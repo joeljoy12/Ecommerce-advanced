@@ -8,5 +8,5 @@ import dotenv from 'dotenv';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss(),],
-  base:env.VITE_BASE_PATH ||'/Dashboard-advanced'
+  base:'/Dashboard-advanced'
 });
