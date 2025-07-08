@@ -1,6 +1,8 @@
 import { FaTachometerAlt, FaBox, FaUsers, FaChartLine, FaCog } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
+import React from 'react'
+
 const Sidebar = () => {
   return (
     <aside className="h-[1200px] w-64 bg-[#050a0d] text-white p-4 hidden md:block border border-amber-100/5">
