@@ -8,5 +8,8 @@ import dotenv from 'dotenv';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss(),],
-  base:'/Dashboard-advanced'
+  base:'/Dashboard-advanced',
+   build: {
+    outDir: 'dist',
+  },
 });
